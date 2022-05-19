@@ -1,6 +1,7 @@
 use crate::*;
 use std::cmp::Ordering;
 
+#[cfg_attr(feature = "serde", derive(serde::Serialize, serde::Deserialize))]
 #[derive(Clone, Debug)]
 pub struct Statistics {
     min_fitness: f32,

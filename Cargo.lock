@@ -71,6 +71,7 @@ dependencies = [
  "maplit",
  "rand",
  "rand_chacha",
+ "serde",
 ]
 
 [[package]]
